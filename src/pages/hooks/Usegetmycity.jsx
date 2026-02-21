@@ -6,7 +6,7 @@ import {
   setCurrentCity,
   setCurrentState,
 } from "../redux/Userslice.js";
-import { setAddress, setLocation } from "../redux/MapSlice.js";
+import { setAddress, setLocation } from "../redux/Mapslice.js";
 
 
 const useGetCurrentCity = () => {
