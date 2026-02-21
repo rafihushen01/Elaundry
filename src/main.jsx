@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
   
    <Provider store={store}>
   <App />
-  <Footer/>
+  
   </Provider>
   </BrowserRouter>
   

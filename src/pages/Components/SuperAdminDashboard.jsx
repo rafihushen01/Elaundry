@@ -3,6 +3,7 @@ import Nav from './Nav'
 import SuperAdminNav from './Superadminnav'
 import SUPERADMINITEMCARD from './Superitemcard'
 import ShopListforsuperadmin from './SuperAdminShop'
+import Footer from '../UsersComponents/Footer'
 
 const SuperAdminDashboard = () => {
   return (
@@ -27,7 +28,7 @@ const SuperAdminDashboard = () => {
 
 
         </div>
-       
+       <Footer/>
        
        
        

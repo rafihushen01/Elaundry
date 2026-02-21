@@ -17,7 +17,9 @@ const Coustomerdashboar = () => {
 <ITEMCARD/>
     </div>
     <ShopList/>
-
+<div>
+  <Footer/>
+</div>
 
     </div>
 
