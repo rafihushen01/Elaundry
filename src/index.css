@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Hide scrollbar for specific utility classes if needed */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* --- Merkova Custom Golden Scrollbar --- */
+
+/* 1. The Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #000b1e; /* Deep Merkova Blue for the track background */
+}
+
+/* 2. The Track (the part the thumb slides on) */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* 3. The Thumb (the moving part) - Pure Gold Gradient */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ffd700, #dd6311);
+  border-radius: 10px;
+  border: 2px solid #000b1e; /* Creates a gap effect */
+  transition: all 0.3s ease-in-out;
+}
+
+/* 4. Animation/Hover effect: Glows when you hover over it */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #0fc4d1, #daa520);
+  box-shadow: 0 0 10px #15c224;
+}
+
+/* For Firefox support (Limited styling compared to Webkit) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0ec717 #000b1e;
+}
