@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { useSelector, useDispatch } from "react-redux";
-import { setAddress, setLocation } from "../redux/MapSlice";
+import { setAddress, setLocation } from "../redux/Mapslice";
 import { FaSearch, FaCreditCard, FaMoneyBillWave, FaMobileAlt, FaShoppingCart } from "react-icons/fa";
 import { BiCurrentLocation } from "react-icons/bi";
 import { MdDeliveryDining } from "react-icons/md";
