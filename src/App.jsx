@@ -29,7 +29,7 @@ import AutoTranslateApp from './components/AutoTranslateApp';
 import BrandIdentity from './pages/BrandIdentity';
 
 export const serverurl =
-  import.meta.env.VITE_SERVER_URL || `https://elaundrywebsitebackend-production.up.railway.app`
+  import.meta.env.VITE_SERVER_URL || `https://elaundrywebsitebackend.onrender.com`
 
 const App = () => {
   UseGetCurrentUser()
